@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>tt</string>
+		<string>tin</string>
+	</array>
+	<key>name</key>
+	<string>TinTin++</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>#(?i:if|case|continue|default|while|else|elseif|endif|break|for|foreach|forall|return|switch)\b</string>
+			<key>name</key>
+			<string>keyword.control</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>#(?i:act|action|alias|all|bell|buffer|button|chat|class|config|cr|cursor|daemon|debug|default|delay|draw|echo|end|event|format|function|gag|greeting|grep|help|highlight|history|ignore|info|kill|line|list|local|log|loop|macro|map|math|message|parse|path|pathdir|port|prompt|read|regexp|replace|run|scan|screen|script|send|session|showme|snoop|split|substitute|suspend|system|tab|textin|ticker|unact|variable|var|write|zap)\b</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>#nop</string>
+			<key>end</key>
+			<string>$</string>
+			<key>name</key>
+			<string>comment.line</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>#NOP</string>
+			<key>end</key>
+			<string>$</string>
+			<key>name</key>
+			<string>comment.line</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.block</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>%([\-\+\w+|\.]+)</string>
+			<key>name</key>
+			<string>variable.parameter</string>
+		</dict>
+		<!-- <dict>
+			<key>match</key>
+			<string>\[\w+\]</string>
+			<key>name</key>
+			<string>variable.parameter</string>
+		</dict> -->
+		<dict>
+			<key>match</key>
+			<string>[$|\*|\&](\w+)</string>
+			<key>name</key>
+			<string>variable.other</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>&amp;lt;...&amp;gt;</string>
+			<key>name</key>
+			<string>constant.other</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(\d+)\b</string>
+			<key>name</key>
+			<string>constant.numeric</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.tin</string>
+	<key>uuid</key>
+	<string>1c89e44d-8658-46ac-a0ad-4fd0c3102f10</string>
+</dict>
+</plist>

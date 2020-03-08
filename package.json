@@ -1,0 +1,25 @@
+{
+    "name": "tin",
+    "displayName": "tin",
+    "description": "Syntax highlighting for TinTin++",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "tt++",
+            "aliases": ["TinTin++", "tt++"],
+            "extensions": [".tt",".tin"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tt++",
+            "scopeName": "source.tin",
+            "path": "./syntaxes/tin.tmLanguage"
+        }]
+    }
+}
