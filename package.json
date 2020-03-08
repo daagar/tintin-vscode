@@ -2,7 +2,7 @@
     "name": "TinTinPlusPlus",
     "displayName": "TinTin++",
     "description": "Syntax highlighting for TinTin++",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "daagar",
     "repository": "https://github.com/daagar/tintin-vscode.git",
     "engines": {
