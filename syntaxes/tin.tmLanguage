@@ -19,21 +19,25 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>#(?i:act|action|alias|all|bell|buffer|button|chat|class|config|cr|cursor|daemon|debug|default|delay|draw|echo|end|event|format|function|gag|greeting|grep|help|highlight|history|ignore|info|kill|line|list|local|log|loop|macro|map|math|message|parse|path|pathdir|port|prompt|read|regexp|replace|run|scan|screen|script|send|session|showme|snoop|split|substitute|suspend|system|tab|textin|ticker|unact|variable|var|write|zap)\b</string>
+			<string>#(?i:all|bell|buffer|button|chat|config|cr|cursor|daemon|debug|default|delay|draw|echo|end|event|gag|greeting|grep|help|highlight|history|ignore|info|kill|log|loop|macro|map|message|parse|path|pathdir|port|read|regexp|replace|run|scan|screen|script|send|session|showme|snoop|split|substitute|suspend|system|tab|textin|ticker|write|zap)\b</string>
+			<key>name</key>
+			<string>entity.name.type</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>#(?i:format|line|list|local|math|prompt|variable|var)\b</string>
+			<key>name</key>
+			<string>storage.type</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>#(?i:act|action|alias|class|function|unact|unaction)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>#nop</string>
-			<key>end</key>
-			<string>$</string>
-			<key>name</key>
-			<string>comment.line</string>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>#NOP</string>
+			<string>#(NOP|nop)</string>
 			<key>end</key>
 			<string>$</string>
 			<key>name</key>
@@ -51,7 +55,7 @@
 			<key>match</key>
 			<string>%([\-\+\w+|\.]+)</string>
 			<key>name</key>
-			<string>variable.parameter</string>
+			<string>variable.language</string>
 		</dict>
 		<!-- <dict>
 			<key>match</key>
