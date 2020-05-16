@@ -2,7 +2,7 @@
     "name": "TinTinPlusPlus",
     "displayName": "TinTin++",
     "description": "Syntax highlighting for TinTin++",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "daagar",
     "repository": "https://github.com/daagar/tintin-vscode.git",
     "engines": {
@@ -15,7 +15,7 @@
         "languages": [{
             "id": "tt++",
             "aliases": ["TinTin++", "tt++"],
-            "extensions": [".tt",".tin"],
+            "extensions": [".tt",".tin",".tinrc"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{

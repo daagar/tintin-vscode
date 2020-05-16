@@ -39,7 +39,7 @@
 			<key>begin</key>
 			<string>#(NOP|nop)</string>
 			<key>end</key>
-			<string>$</string>
+			<string>($|[\w\*\-\(\)\/\,\;\'+ ]+)</string>
 			<key>name</key>
 			<string>comment.line</string>
 		</dict>
