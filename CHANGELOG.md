@@ -4,6 +4,8 @@ All notable changes to the "Tintin++ VSCode" extension will be documented in thi
 
 
 ## [Unreleased]
+## [0.0.4] - 2020-05-17
+- More hacks to deal with #NOP lines
 
 ## [0.0.3] - 2020-05-16
 ### Changed

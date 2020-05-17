@@ -10,6 +10,16 @@ I highly suggest using a bracket colorizer as well, such as https://marketplace.
 Install via:
 ```code --install-extension TinTinPlusPlus-<version>.vsix```
 
+## Known Issues
+There is no support for comment blocks like the following:
+```
+#nop {
+    This should be commented out
+};
+```
+
+The workaround is to instead multiselect lines to comment and use vscode's `ctrl+/` command to multicomment the lines. 
+
 # TinTin++
 Be sure to keep up with the latest TinTin++ updates at: https://tintin.mudhalla.net/index.php
 

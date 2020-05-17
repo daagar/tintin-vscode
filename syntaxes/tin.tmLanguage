@@ -37,9 +37,17 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>^\s?#(NOP|nop)</string>
+			<key>end</key>
+			<string>($)</string>
+			<key>name</key>
+			<string>comment.line</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>#(NOP|nop)</string>
 			<key>end</key>
-			<string>($|[\w\*\-\(\)\/\,\;\'+ ]+)</string>
+			<string>($|[[:word:]+[:space:]+\#\?\{\>\<\=\-\*\(\)\/\\\,\.\'\"\!\@\$\%\^\&]+)</string>
 			<key>name</key>
 			<string>comment.line</string>
 		</dict>
