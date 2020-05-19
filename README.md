@@ -17,8 +17,15 @@ There is no support for comment blocks like the following:
     This should be commented out
 };
 ```
-
 The workaround is to instead multiselect lines to comment and use vscode's `ctrl+/` command to multicomment the lines. 
+
+
+The following doesn't currently work right. Just split into two lines, this isn't an exercise in obfuscation! (or fix my horrid regex)
+```
+ #act {my trigger text} {#NOP comment here; #var notacomment real_code};
+ ```
+
+
 
 # TinTin++
 Be sure to keep up with the latest TinTin++ updates at: https://tintin.mudhalla.net/index.php
