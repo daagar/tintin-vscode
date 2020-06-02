@@ -19,7 +19,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>#(?i:all|bell|buffer|button|chat|config|cr|cursor|daemon|debug|default|delay|draw|echo|end|event|gag|greeting|grep|help|highlight|history|ignore|info|kill|log|loop|macro|map|message|parse|path|pathdir|port|read|regexp|replace|run|scan|screen|script|send|session|showme|snoop|split|substitute|suspend|system|tab|textin|ticker|write|zap)\b</string>
+			<string>#(?i:all|bell|buffer|button|chat|config|cr|cursor|daemon|debug|default|delay|undelay|draw|echo|end|event|gag|greeting|grep|help|highlight|history|ignore|info|kill|log|loop|macro|map|message|parse|path|pathdir|port|read|regexp|replace|run|scan|screen|script|send|session|showme|snoop|split|substitute|suspend|system|tab|textin|ticker|write|zap)\b</string>
 			<key>name</key>
 			<string>entity.name.type</string>
 		</dict>
