@@ -4,6 +4,10 @@ All notable changes to the "Tintin++ VSCode" extension will be documented in thi
 
 
 ## [Unreleased]
+
+## [0.0.6] - 2020-06-10
+- More commands highlighted, fix for matching various variable elements correct (thanks rob204!)
+
 ## [0.0.5] - 2020-05-18
 - More hacks to deal with #NOP lines
 
